@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: basejump\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-01 15:09-0500\n"
+"PO-Revision-Date: 2012-01-01 15:12-0500\n"
+"Last-Translator: shawn sandy <shawnsandy04@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: tpl/layout\n"
+"X-Poedit-SearchPath-2: tpl/themes\n"
+"X-Poedit-SearchPath-3: tpl/base\n"
+"X-Poedit-SearchPath-4: tpl\n"
+"X-Poedit-SearchPath-5: tpl/theme-footer\n"
+"X-Poedit-SearchPath-6: tpl/theme-header\n"
+"X-Poedit-SearchPath-7: tpl/sample\n"
+
+#: 404.php:12
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:16
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: 404.php:23
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:30
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive-cwp_theme.php:16
+#: archive-cwp_theme.php:39
+#: archive.php:28
+#: archive.php:45
+#: author.php:18
+#: author.php:35
+#: full-page.php:16
+#: full-page.php:32
+#: gallery.php:13
+#: gallery.php:29
+msgid "Post navigation"
+msgstr ""
+
+#: archive-cwp_theme.php:17
+#: archive-cwp_theme.php:40
+#: archive.php:29
+#: archive.php:46
+#: author.php:19
+#: author.php:36
+#: full-page.php:17
+#: full-page.php:33
+#: gallery.php:14
+#: gallery.php:30
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: archive-cwp_theme.php:18
+#: archive-cwp_theme.php:41
+#: archive.php:30
+#: archive.php:47
+#: author.php:20
+#: author.php:37
+#: full-page.php:18
+#: full-page.php:34
+#: gallery.php:15
+#: gallery.php:31
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr ""
+
+#: author.php:10
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr ""
+
+#: category.php:10
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: comments.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:44
+#: comments.php:64
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:64
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:75
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:93
+#: comments.php:105
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:94
+#: comments.php:106
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:95
+#: comments.php:107
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:120
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:121
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:122
+#, php-format
+msgid "The %1$s plugin is required for this theme. Click on the big blue button below to install and activate %1$s."
+msgstr ""
+
+#: functions.php:123
+#, php-format
+msgid "The %1$s plugin is recommended for this theme. Click on the big blue button below to install and activate %1$s."
+msgstr ""
+
+#: functions.php:124
+#, php-format
+msgid "The %1$s plugin is installed but currently inactive. Please go to the <a href=\"%2$s\">plugin administration page</a> page to activate it."
+msgstr ""
+
+#: functions.php:125
+#, php-format
+msgid "Install %s Now"
+msgstr ""
+
+#: functions.php:126
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:127
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:128
+#, php-format
+msgid "This theme requires the following plugins: %1$s."
+msgstr ""
+
+#: functions.php:129
+#, php-format
+msgid "This theme recommends the following plugins: %1$s."
+msgstr ""
+
+#: functions.php:130
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgstr ""
+
+#: functions.php:131
+#, php-format
+msgid "The following required plugins are currently inactive: %1$s."
+msgstr ""
+
+#: functions.php:132
+#, php-format
+msgid "The following recommended plugins are currently inactive: %1$s."
+msgstr ""
+
+#: functions.php:133
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgstr ""
+
+#: functions.php:134
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:135
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: header-tb.php:39
+#: header.php:33
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: home.php:12
+msgid "Welcome"
+msgstr ""
+
+#: home.php:14
+msgid "Articles"
+msgstr ""
+
+#: home.php:17
+msgid "Products"
+msgstr ""
+
+#: home.php:20
+msgid "Information"
+msgstr ""
+
+#: home.php:23
+msgid "FAQ(s)"
+msgstr ""
+
+#: home.php:25
+msgid "Blog"
+msgstr ""
+
+#: image.php:16
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span>  at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:19
+#: image.php:84
+msgid "Edit"
+msgstr ""
+
+#: image.php:23
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:24
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:70
+msgid "Pages:"
+msgstr ""
+
+#: image.php:76
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:78
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:80
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:82
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:45
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:49
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:15
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:22
+msgid "Meta"
+msgstr ""
+
+#: single-cwp_theme.php:25
+msgid "Buy This Theme"
+msgstr ""
+
+#: single-cwp_theme.php:29
+msgid "Preview Theme "
+msgstr ""
+
+#: single-cwp_theme.php:44
+msgid "Theme Description"
+msgstr ""
+
+#: single-cwp_theme.php:52
+msgid "Theme Features"
+msgstr ""
+
+#: single-cwp_theme.php:59
+msgid "Crafted UI"
+msgstr ""
+
+#: single-cwp_theme.php:80
+msgid "Pressed In"
+msgstr ""
+
+#: single-cwp_theme.php:102
+msgid "Integrated Plugins"
+msgstr ""
+
+#: tag.php:14
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: theme_functions.php:15
+msgid "Theme Thumbnails"
+msgstr ""
+
+#: theme_functions.php:16
+msgid "Theme Previewbasejump"
+msgstr ""
+
+#: theme_functions.php:85
+msgid "Main Menu"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:131
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:578
+msgid "Begin installing plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:579
+msgid "Activate installed plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:580
+msgid "Dismiss this notice"
+msgstr ""
+
+#: toolbox/functions.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#: toolbox/functions.php:104
+msgid "Sidebar 1"
+msgstr ""
+
+#: toolbox/functions.php:113
+msgid "Sidebar 2"
+msgstr ""
+
+#: toolbox/functions.php:115
+msgid "An optional second sidebar area"
+msgstr ""
+
+#: toolbox/functions.php:227
+#, php-format
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: toolbox/functions.php:233
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: tpl/base/aside.php:15
+#: tpl/base/aside.php:19
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: tpl/base/aside.php:26
+#, php-format
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\">%6$s</a></span>"
+msgstr ""
+
+#: tpl/base/aside.php:37
+msgid "Leave a comment"
+msgstr ""
+
+#: tpl/base/aside.php:37
+msgid "1 Comment"
+msgstr ""
+
+#: tpl/base/aside.php:37
+msgid "% Comments"
+msgstr ""
+
+#: tpl/base/gallery.php:60
+#: tpl/base/general.php:41
+#: tpl/base/themes.php:50
+#: tpl/content/gallery.php:60
+#: tpl/content/general.php:40
+msgid "Posted in "
+msgstr ""
+
+#: tpl/base/gallery.php:62
+#: tpl/base/general.php:43
+#: tpl/base/themes.php:52
+#: tpl/content/gallery.php:62
+#: tpl/content/general.php:42
+msgid "Tagged "
+msgstr ""
+
+#: tpl/base/single.php:35
+#: tpl/content/single.php:35
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: tpl/base/single.php:37
+#: tpl/content/single.php:37
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: tpl/base/theme_options.php:26
+msgid "Save Changes"
+msgstr ""
+
+#: tpl/sample/tpl-home-page.php:122
+msgid "Images.CraftedAndPressed.com"
+msgstr ""
+
+#: tpl/sample/tpl-home-page.php:123
+msgid "(Get images and graphics for your themes)"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:15
+msgid "Pages"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:27
+msgid "Categories"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:38
+msgid "Info 3"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:47
+msgid "Contact"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:66
+msgid "All Rights Reserved"
+msgstr ""
+
+#: tpl/theme-footer/footer.php:70
+msgid "Designed by Crafted and Pressed"
+msgstr ""
+
+#: tpl/theme-header/header.php:52
+msgid "Browse"
+msgstr ""
+
+#: tpl/theme-header/header.php:69
+msgid "Nav Item 2"
+msgstr ""
+
+#: tpl/theme-header/header.php:82
+msgid "Nav Item 3"
+msgstr ""
+
+#: tpl/theme-header/header.php:87
+msgid "Nav Item 4"
+msgstr ""
+
+#: tpl/themes/tpl-home.php:68
+msgid "Subscribe Now"
+msgstr ""
+
