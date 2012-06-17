@@ -273,14 +273,6 @@ function load_classes(){
      * testing menubars
      */
 
-    /** Display most recent Post (all Post Types) **/
-    Ext_Post_Menus::add()->set_node_id('recent')->set_node_title('Recent Post')->set_post_types(TRUE)->published();
-    /** Display published Post **/
-    Ext_Post_Menus::add()->set_node_id('menu-published')->set_node_title('Post')->published();
-    /** Display published pages **/
-    Ext_Post_Menus::add()->set_node_id('menu-pages')->set_node_title('Pages')->published('page');
-    /** Display Custom Options pages **/
-    Ext_Post_Menus::add()->set_node_id('custom_options')->set_node_title('UI.Options')->published('cwp_custom_options');
 
     /**
      * Theme Navs
@@ -295,6 +287,21 @@ function load_classes(){
 
 
 }
+
+
+ /**
+ * Customize Adminbar Post Menus
+ *
+ */
+function apm_menus() {
+    //create an post_type array(post_type, menu_title);
+    $post_types  =  array('post' => 'Posts', 'page' => 'Pages','cwp_article' => 'Articles','cwp_faq' => "FAQ(s)");
+
+    //load and run the class
+    $apmmenus = AdminbarPostMenus::add_menus()->set_list_count(5)->set_post_types($post_types)->nodes();
+}
+// run the function on init;
+add_action('init', 'apm_menus');
 
 
 /**
@@ -401,4 +408,19 @@ function cwp_theme_plugins() {
 
 }
 
-//include_once WP_CONTENT_DIR.'/plugins/NHP-Theme-Options/theme-options.php';
+
+$defaults = array(
+	'default-image'          => '',
+	'random-default'         => false,
+	'width'                  => 0,
+	'height'                 => 0,
+	'flex-height'            => false,
+	'flex-width'             => false,
+	'default-text-color'     => '',
+	'header-text'            => true,
+	'uploads'                => true,
+	'wp-head-callback'       => '',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => '',
+);
+add_theme_support( 'custom-header', $defaults );

@@ -21,7 +21,6 @@ cwp_layout::the_header();
         <section id="sidebar">
            <?php cwp_layout::sidebar(); ?>
         </section>
-
         <!-- ####column-end#### -->
     </div>
 </div>
