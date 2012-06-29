@@ -410,10 +410,10 @@ function cwp_theme_plugins() {
 
 
 $defaults = array(
-	'default-image'          => '',
+	'default-image'          => get_template_directory_uri().'/images/basejump.png',
 	'random-default'         => false,
-	'width'                  => 0,
-	'height'                 => 0,
+	'width'                  => 300,
+	'height'                 => 48,
 	'flex-height'            => false,
 	'flex-width'             => false,
 	'default-text-color'     => '',
